@@ -1,8 +1,9 @@
 # Curso Gemini CTIC UNI
 
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES%20Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Node.js](https://img.shields.io/badge/Runtime-Node.js%2018%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/Package%20Manager-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript%20%2B%20ES%20Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
+![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini%20API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge)
 
 Repositorio académico con ejercicios prácticos desarrollados durante el curso de Gemini de CTIC UNI. El objetivo es aprender progresivamente fundamentos de Node.js, modularización, asincronía, manejo de dependencias, variables de entorno e integración con la API de Google Gemini.
