@@ -133,13 +133,6 @@ npm install
 node index.js
 ```
 
-Importante:
-
-- No subas archivos `.env` al repositorio.
-- No escribas API keys directamente en el código fuente.
-- Rota la API key si accidentalmente fue expuesta.
-- Usa variables de entorno diferentes para desarrollo, pruebas y producción.
-
 ## Buenas prácticas aplicadas
 
 - Separación progresiva de responsabilidades mediante módulos.
@@ -148,20 +141,6 @@ Importante:
 - Manejo de errores con `try/catch` en llamadas externas.
 - Uso de patrones de concurrencia nativos de JavaScript.
 - Inclusión de `.gitignore` para excluir `node_modules`, archivos de entorno y salidas temporales.
-
-## Recomendaciones de mejora
-
-Para llevar el repositorio a un estándar más profesional, se recomienda:
-
-- Agregar un `package.json` completo a cada proyecto con scripts como `start`.
-- Normalizar nombres de carpetas sin espacios, por ejemplo `proyecto-01`, `proyecto-02`.
-- Corregir metadatos internos, como el campo `name` del `package.json` de `proyecto 7`.
-- Crear archivos `.env.example` para documentar variables requeridas sin exponer secretos.
-- Agregar validaciones antes de consumir la API, por ejemplo verificar que `GEMINI_API_KEY` exista.
-- Centralizar utilidades comunes si varios proyectos comienzan a compartir lógica.
-- Añadir ESLint y Prettier para mantener estilo consistente.
-- Incorporar pruebas unitarias para funciones puras y simulaciones de modelos.
-- Documentar cada proyecto con un README propio cuando crezca su complejidad.
 
 ## Licencia
 
